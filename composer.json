@@ -1,0 +1,19 @@
+{
+    "name": "oguz/mvc",
+    "description": "customer-management-system",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./App",
+            "Core\\": "./Core"
+        }
+    },
+    "authors": [
+        {
+            "name": "oguzhanatlan",
+            "email": "osi.atlan.19@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6"
+    }
+}
